@@ -11,7 +11,7 @@ function App() {
   
     const tarefasStorange = localStorage.getItem('to-do');
 
-    if(tarefasStorange != null){
+    if(tarefasStorange){
       setTarefas(JSON.parse(tarefasStorange));
     }
 
